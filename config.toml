@@ -1,0 +1,59 @@
+baseurl = "https://fxxxxxxx144.github.io"
+languageCode = "ja-jp"
+theme = "hugo-theme-hello-friend-ng"
+
+[params]
+  # dateform        = "Jan 2, 2006"
+  # dateformShort   = "Jan 2"
+   dateformNum     = "2019-10-06"
+  # dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by fxxxxxxx144"
+  keywords = "homepage, blog, development, programming, security, server, linux, BSD, network, powershell, Powershell DSC "
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Don't lose your way"
+    subtitle = "Don't be afraid"
+    keywords = ""
+    # copyright = "© 2019 fxxxxxxx144 All rights reserved"
+    copyright = "fxxxxxxx144 All rights reserved"   
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      # logoText = "hello friend ng"
+      logoText = "Don't lose your way"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    # 	# You can create a language based menu
+    # [languages.en.menu]
+    #   [[languages.en.menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     url = "/about/"
+    #   [[languages.en.menu.main]]
+    #     identifier = "post"
+    #     name = "post"
+    #     url = "/post/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/post"
